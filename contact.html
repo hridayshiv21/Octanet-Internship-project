@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Landing Page</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <header class="header">
@@ -19,25 +19,21 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Welcome to Our Website</h1>
-        <p>Your Catchy Tagline Here</p>
-        <a href="#" class="cta-button">Learn More</a>
-    </section>
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>Have questions or inquiries? Fill out the form below or reach out to us directly.</p>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <section class="features">
-        <div class="feature">
-            <h2>Feature 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="feature">
-            <h2>Feature 2</h2>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="feature">
-            <h2>Feature 3</h2>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-        </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
     </section>
 
     <footer class="footer">
